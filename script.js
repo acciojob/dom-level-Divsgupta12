@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const element = document.getElementById('level');
+let element = document.getElementById('level');
 let n = 0;
 
 while (element.parentNode) {
@@ -7,4 +7,4 @@ while (element.parentNode) {
   element = element.parentNode;
 }
 
-alert("The level of the element is:"+n);
+alert("The level of the element is: "+n);
